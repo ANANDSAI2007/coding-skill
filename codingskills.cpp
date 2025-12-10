@@ -1,5 +1,12 @@
 // Student Management System - Class-Based Implementation
-#include <bits/stdc++.h>
+#include <iostream>
+#include <fstream>
+#include <iomanip>
+#include <string>
+#include <algorithm>
+#include <cstdio>     // for remove, rename
+using namespace std;
+
 using namespace std;
 
 const string STUDENT_DATABASE = "students.txt";
@@ -392,4 +399,5 @@ int main() {
     }
 
     return 0;
+
 }
